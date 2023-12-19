@@ -148,6 +148,7 @@
     vlc
     #google-chrome
     brave
+    yai
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
