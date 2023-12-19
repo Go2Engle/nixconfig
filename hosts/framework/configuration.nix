@@ -8,6 +8,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ../../system/app/darktable.nix
       ../../system/app/ollama.nix
       ../../system/app/docker.nix
       #../../system/app/minikube.nix
