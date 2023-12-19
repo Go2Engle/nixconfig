@@ -10,7 +10,7 @@
       ./hardware-configuration.nix
       ../../system/app/darktable.nix
       # still trying to figure localsend out
-      #../../system/app/localsend.nix
+      ../../system/app/localsend.nix
       ../../system/app/ollama.nix
       ../../system/app/docker.nix
       #../../system/app/minikube.nix
