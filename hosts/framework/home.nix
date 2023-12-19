@@ -111,8 +111,6 @@
       enable = true;
       plugins = [ 
         "git"
-        "zsh-autosuggestions"
-        "zsh-autocomplete"
         ];
       theme = "agnoster";
     };
