@@ -146,6 +146,8 @@
     obs-studio
     sddm-kcm
     vlc
+    #google-chrome
+    brave
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
