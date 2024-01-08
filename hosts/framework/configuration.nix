@@ -142,7 +142,7 @@
     inkscape
     gimp
     flameshot
-    latte-dock
+    #latte-dock
     obs-studio
     sddm-kcm
     vlc
