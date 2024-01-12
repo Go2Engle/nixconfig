@@ -119,7 +119,7 @@
       "ll" = "ls -al";
       "flakeupdate" = "cd ~/.dotfiles/hosts/framework && nix flake update && sudo nixos-rebuild switch --flake .#";
       "switch" = "cd ~/.dotfiles/hosts/framework && sudo nixos-rebuild switch --flake .#";
-      "c" = "clear";
+      "cl" = "clear";
     };
   };
 
