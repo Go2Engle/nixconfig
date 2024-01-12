@@ -62,8 +62,8 @@
   services.xserver.desktopManager.plasma5.enable = true;
   programs.dconf.enable = true;
 
-  # Enable Openbox Desktop Environment
-  services.xserver.windowManager.openbox.enable = true;
+  # Enable Openbox Desktop Environment - maybe ill get back to this...
+  #services.xserver.windowManager.openbox.enable = true;
 
   # Enable Fingerprint support
   services.fprintd.enable = true;
