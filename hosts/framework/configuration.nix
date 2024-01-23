@@ -109,6 +109,7 @@
     packages = with pkgs; [
       firefox
       kate
+      remmina
     #  thunderbird
     ];
   };
