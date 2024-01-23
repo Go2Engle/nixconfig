@@ -108,6 +108,7 @@
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       firefox
+      floorp
       kate
       remmina
     #  thunderbird
