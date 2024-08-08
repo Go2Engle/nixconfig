@@ -58,8 +58,8 @@
   services.xserver.enable = true;
 
   # Enable the KDE Plasma Desktop Environment.
-  services.xserver.displayManager.sddm.enable = true;
-  services.xserver.desktopManager.plasma5.enable = true;
+  services.displayManager.sddm.enable = true;
+  services.desktopManager.plasma6.enable = true;
   programs.dconf.enable = true;
 
   # Enable Openbox Desktop Environment - maybe ill get back to this...
@@ -100,6 +100,9 @@
   # enable zsh
   programs.zsh.enable = true;
 
+  # Install firefox.
+  programs.firefox.enable = true;
+
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.cengle = {
     isNormalUser = true;
@@ -107,10 +110,7 @@
     shell = pkgs.zsh;
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-      firefox
-      floorp
-      kate
-      remmina
+      kdePackages.kate
     #  thunderbird
     ];
   };
@@ -152,7 +152,7 @@
     sddm-kcm
     vlc
     #google-chrome
-    brave
+    #brave
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -174,6 +174,6 @@
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
-  system.stateVersion = "23.11"; # Did you read the comment?
+  system.stateVersion = "24.05"; # Did you read the comment?
 
 }
