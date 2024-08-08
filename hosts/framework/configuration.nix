@@ -120,9 +120,6 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  # Enable Flatpak support
-  services.flatpak.enable = true;
-
   # Enable flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
@@ -135,6 +132,15 @@
 
   # Enable Tailscale
   services.tailscale.enable = true;
+
+  # Enable Flatpak support
+  services.flatpak = {
+    enable = true;
+    update.onActivation = true;
+    packages = [
+      "io.github.brunofin.Cohesion"
+    ];
+  };
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
