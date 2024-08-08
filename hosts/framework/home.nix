@@ -117,8 +117,8 @@
     shellAliases = {
       # add your own aliases here
       "ll" = "ls -al";
-      "flakeupdate" = "cd ~/.dotfiles/hosts/framework && nix flake update && sudo nixos-rebuild switch --flake .#";
-      "switch" = "cd ~/.dotfiles/hosts/framework && sudo nixos-rebuild switch --flake .#";
+      "flakeupdate" = "cd ~/.dotfiles/hosts/framework && nix flake update && sudo nixos-rebuild switch --flake .#framework";
+      "switch" = "cd ~/.dotfiles/hosts/framework && sudo nixos-rebuild switch --flake .#framework";
       "cl" = "clear";
     };
   };
