@@ -105,7 +105,7 @@
 
   programs.zsh = {
     enable = true;
-    autosuggestions = {
+    autosuggestion = {
       enable = true;
     };
     enableCompletion = true;
