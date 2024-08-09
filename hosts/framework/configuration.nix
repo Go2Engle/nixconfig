@@ -140,6 +140,7 @@
     packages = [
       "io.github.brunofin.Cohesion"
       "com.github.iwalton3.jellyfin-media-player"
+      "dev.deedles.Trayscale"
     ];
   };
 
