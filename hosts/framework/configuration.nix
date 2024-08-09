@@ -66,7 +66,7 @@
   #services.xserver.windowManager.openbox.enable = true;
 
   # Enable Fingerprint support
-  services.fprintd.enable = true;
+  # services.fprintd.enable = true;
 
   # Configure keymap in X11
   services.xserver = {
