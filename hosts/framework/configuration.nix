@@ -139,6 +139,7 @@
     update.onActivation = true;
     packages = [
       "io.github.brunofin.Cohesion"
+      "com.github.iwalton3.jellyfin-media-player"
     ];
   };
 
