@@ -142,6 +142,7 @@
       "com.github.iwalton3.jellyfin-media-player"
       "dev.deedles.Trayscale"
       "im.nheko.Nheko"
+      "org.gnome.Calculator"
     ];
   };
 
