@@ -168,7 +168,6 @@
     vlc
     #google-chrome
     #brave
-    kdePackages.sddm-kcm
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
